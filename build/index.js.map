@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sources":["../src/Component.tsx"],"sourcesContent":["import React from 'react'\n\nexport const Component = () => {\n    return (\n        <div>\n            Component\n        </div>\n    )\n}\n"],"names":["React"],"mappings":";;;;;;;;;;IAEa,SAAS,GAAG;IACrB,QACIA,iEAEM,EACT;AACL;;;;"}
