@@ -36,7 +36,7 @@ var OtherComponent = function (_a) {
 };
 
 var Component = function () {
-    return (jsxRuntime.jsxs("div", __assign({ className: "bg-orange-500" }, { children: ["Component", jsxRuntime.jsx(OtherComponent, { children: "children" }, void 0)] }), void 0));
+    return (jsxRuntime.jsxs("div", __assign({ className: "bg-primary-500" }, { children: ["Component", jsxRuntime.jsx(OtherComponent, { children: "children" }, void 0)] }), void 0));
 };
 
 exports.Component = Component;

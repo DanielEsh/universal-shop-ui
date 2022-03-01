@@ -32,7 +32,7 @@ var OtherComponent = function (_a) {
 };
 
 var Component = function () {
-    return (jsxs("div", __assign({ className: "bg-orange-500" }, { children: ["Component", jsx(OtherComponent, { children: "children" }, void 0)] }), void 0));
+    return (jsxs("div", __assign({ className: "bg-primary-500" }, { children: ["Component", jsx(OtherComponent, { children: "children" }, void 0)] }), void 0));
 };
 
 export { Component };
