@@ -10,6 +10,7 @@ module.exports = {
    */
   addons: [
     "@storybook/addon-docs",
+    "storybook-dark-mode",
     {
       name: "@storybook/addon-postcss",
       options: {
