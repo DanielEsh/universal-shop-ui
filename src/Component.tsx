@@ -2,7 +2,7 @@ import { OtherComponent } from '@/OtherComponent'
 
 export const Component = () => {
   return (
-    <div className="bg-primary-500">
+    <div className="bg-dark-500">
       Component
       <OtherComponent>
         children
