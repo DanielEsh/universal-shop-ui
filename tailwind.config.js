@@ -1,10 +1,12 @@
 module.exports = {
-  content: ['./src/**/*.tsx'],
+  content: ['./src/**/*.tsx', './src/**/*.mdx'],
   theme: {
     colors: {
       dark: {
-        '500': '#161616',
+        '500': '#1A1A1A',
       },
+      white: '#fff',
+      black: '#000',
     },
     extend: {},
   },
