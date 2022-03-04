@@ -1,0 +1,25 @@
+import React, { ReactNode } from 'react';
+export declare type ButtonProps = {
+    children: ReactNode;
+    addonLeft?: ReactNode;
+    addonRight?: ReactNode;
+    className?: string;
+    color?: 'primary' | 'secondary' | 'gray' | 'success' | 'error' | 'ghost';
+    size?: 'small' | 'medium' | 'large' | 'block';
+    type?: 'button' | 'submit';
+    outline?: boolean;
+    disabled?: boolean;
+    loading?: boolean;
+    onMouseDown?: (event: any) => void;
+    onMouseUp?: (event: any) => void;
+    onMouseEnter?: (event: any) => void;
+    onMouseLeave?: (event: any) => void;
+    onClick?: (event: any) => void;
+    onFocus?: () => void;
+    onBlur?: () => void;
+    id?: string;
+    title?: string;
+    role?: string;
+    href?: string;
+};
+export declare const Button: React.ForwardRefExoticComponent<ButtonProps & React.RefAttributes<HTMLElement>>;
