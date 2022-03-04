@@ -1,6 +1,5 @@
-
-import { Component } from "./Component";
+import { Button } from '@/components/Button'
 
 export {
-    Component,
+  Button,
 }
